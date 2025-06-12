@@ -21,8 +21,8 @@ importers:
         specifier: ^4.0.0
         version: 4.1.8(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))
       lucide-svelte:
-        specifier: ^0.513.0
-        version: 0.513.0(svelte@5.33.15)
+        specifier: ^0.514.0
+        version: 0.514.0(svelte@5.33.15)
       svelte:
         specifier: ^5.0.0
         version: 5.33.15
@@ -146,12 +146,6 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [linux]
-
-  '@esbuild/netbsd-arm64@0.25.5':
-    resolution: {integrity: sha512-pwHtMP9viAy1oHPvgxtOv+OkduK5ugofNTVDilIzBLpoWAM16r7b/mxBvfpuQDpRQFMfuVr5aLcn4yveGvBZvw==}
-    engines: {node: '>=18'}
-    cpu: [arm64]
-    os: [netbsd]
 
   '@esbuild/netbsd-x64@0.25.5':
     resolution: {integrity: sha512-WOb5fKrvVTRMfWFNCroYWWklbnXH0Q5rZppjq0vQIdlsQKuw6mdSihwSo4RV/YdQ5UCKKvBy7/0ZZYLBZKIbwQ==}
@@ -403,12 +397,6 @@ packages:
     resolution: {integrity: sha512-RdRvedGsT0vwVVDztvyXhKpsU2ark/BjgG0huo4+2BluxdXo8NDgzl77qh0T1nUxmM11eXwR8jA39ibvSTbi7A==}
     engines: {node: '>= 10'}
     cpu: [arm64]
-    os: [darwin]
-
-  '@tailwindcss/oxide-darwin-x64@4.1.8':
-    resolution: {integrity: sha512-t6PgxjEMLp5Ovf7uMb2OFmb3kqzVTPPakWpBIFzppk4JE4ix0yEtbtSjPbU8+PZETpaYMtXvss2Sdkx8Vs4XRw==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
     os: [darwin]
 
   '@tailwindcss/oxide-freebsd-x64@4.1.8':
@@ -673,8 +661,8 @@ packages:
   locate-character@3.0.0:
     resolution: {integrity: sha512-SW13ws7BjaeJ6p7Q6CO2nchbYEc3X3J6WrmTTDto7yMPqVSZTUyY5Tjbid+Ab8gLnATtygYtiDIJGQRRn2ZOiA==}
 
-  lucide-svelte@0.513.0:
-    resolution: {integrity: sha512-RLHtrFZM+v9AmO24Q+WqsY+khaB2lNXVDpSzJ5NcOTi0eo4Wk93EtoetHMm3NEytTJ23HHeELw64TDZdyNrsHw==}
+  lucide-svelte@0.514.0:
+    resolution: {integrity: sha512-fxvZu4srTezjMCM3Nzbofs1Bo/OW5F5ZhR9s41I4E/Yyic6Q90RUs6lMKfJX4iR8cULD4tFHybxvvHztI+Muqg==}
     peerDependencies:
       svelte: ^3 || ^4 || ^5.0.0-next.42
 
@@ -906,9 +894,6 @@ snapshots:
   '@esbuild/linux-x64@0.25.5':
     optional: true
 
-  '@esbuild/netbsd-arm64@0.25.5':
-    optional: true
-
   '@esbuild/netbsd-x64@0.25.5':
     optional: true
 
@@ -1117,9 +1102,6 @@ snapshots:
   '@tailwindcss/oxide-darwin-arm64@4.1.8':
     optional: true
 
-  '@tailwindcss/oxide-darwin-x64@4.1.8':
-    optional: true
-
   '@tailwindcss/oxide-freebsd-x64@4.1.8':
     optional: true
 
@@ -1154,7 +1136,6 @@ snapshots:
     optionalDependencies:
       '@tailwindcss/oxide-android-arm64': 4.1.8
       '@tailwindcss/oxide-darwin-arm64': 4.1.8
-      '@tailwindcss/oxide-darwin-x64': 4.1.8
       '@tailwindcss/oxide-freebsd-x64': 4.1.8
       '@tailwindcss/oxide-linux-arm-gnueabihf': 4.1.8
       '@tailwindcss/oxide-linux-arm64-gnu': 4.1.8
@@ -1232,7 +1213,6 @@ snapshots:
       '@esbuild/linux-riscv64': 0.25.5
       '@esbuild/linux-s390x': 0.25.5
       '@esbuild/linux-x64': 0.25.5
-      '@esbuild/netbsd-arm64': 0.25.5
       '@esbuild/netbsd-x64': 0.25.5
       '@esbuild/openbsd-arm64': 0.25.5
       '@esbuild/openbsd-x64': 0.25.5
@@ -1329,7 +1309,7 @@ snapshots:
 
   locate-character@3.0.0: {}
 
-  lucide-svelte@0.513.0(svelte@5.33.15):
+  lucide-svelte@0.514.0(svelte@5.33.15):
     dependencies:
       svelte: 5.33.15
 
