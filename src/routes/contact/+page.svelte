@@ -1,10 +1,10 @@
 <svelte:head><title>Harnes - About</title></svelte:head>
 
 <script>
+import Navbar from '$lib/components/Navbar.svelte';
 import CatIcon from '$lib/components/icons/CatIcon.svelte';
 import DiscordIcon from '$lib/components/icons/DiscordIcon.svelte';
 import XIcon from '$lib/components/icons/XIcon.svelte';
-import Navbar from '$lib/components/Navbar.svelte';
 </script>
 
 <main class="relative bg-linear-to-b from-[#171717] to-[#1E1E1E] text-neutral-300 flex flex-col min-h-screen w-screen">
