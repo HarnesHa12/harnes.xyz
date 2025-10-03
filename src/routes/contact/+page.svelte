@@ -1,4 +1,4 @@
-<svelte:head><title>Harnes - About</title></svelte:head>
+<svelte:head><title>Harnes - Contact</title></svelte:head>
 
 <script>
 import Navbar from '$lib/components/Navbar.svelte';
@@ -7,7 +7,7 @@ import DiscordIcon from '$lib/components/icons/DiscordIcon.svelte';
 import XIcon from '$lib/components/icons/XIcon.svelte';
 </script>
 
-<main class="relative bg-linear-to-b from-[#171717] to-[#1E1E1E] text-neutral-300 flex flex-col min-h-screen w-screen">
+<main class="relative flex flex-col min-h-screen w-screen">
     <Navbar />
     
     <section class="flex flex-col w-full justify-center items-center h-[500px]">
