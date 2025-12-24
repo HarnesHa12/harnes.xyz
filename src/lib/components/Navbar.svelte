@@ -1,4 +1,4 @@
-<nav class="flex w-full h-24 items-center justify-between lg:px-30 md:px-14 px-5 transition-all bg-none bg-transparent backdrop-blur-md">
+<nav class="flex w-full h-24 items-center justify-between lg:px-30 md:px-14 px-5 transition-all">
     <a href="/" class="flex items-center gap-4">
         <div class="relative w-14 h-14">
             <div class="absolute inset-0 rounded-full blur-xl opacity-80 scale-90 z-0 bg-gradient-to-br from-neutral-200 to-neutral-400"></div>

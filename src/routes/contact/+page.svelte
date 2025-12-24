@@ -10,7 +10,7 @@ import DiscordIcon from '$lib/components/icons/DiscordIcon.svelte';
 import XIcon from '$lib/components/icons/XIcon.svelte';
 </script>
 
-<main class="relative flex flex-col min-h-screen w-screen">
+<main class="relative overflow-hidden flex flex-col min-h-screen w-screen">
     <Navbar />
     
     <section class="flex flex-col w-full justify-center items-center h-[500px]">
