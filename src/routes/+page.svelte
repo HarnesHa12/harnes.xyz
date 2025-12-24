@@ -1,5 +1,6 @@
 <svelte:head>
 	<title>Harnes</title>
+    <meta name="description" content="Web developer focused on building fast, modern websites using Svelte, Next.js, BetterAuth, and Tailwind CSS." />
 </svelte:head>
 
 <script lang="ts">

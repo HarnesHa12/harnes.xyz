@@ -1,4 +1,7 @@
-<svelte:head><title>Harnes - Contact</title></svelte:head>
+<svelte:head>
+    <title>Harnes - Contact</title>
+    <meta name="description" content="Contact Harnes, a web developer specializing in Svelte, Next.js, and modern web applications. Let’s work together." />
+</svelte:head>
 
 <script>
 import Navbar from '$lib/components/Navbar.svelte';

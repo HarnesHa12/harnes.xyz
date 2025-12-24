@@ -3,12 +3,9 @@ const { class: className, rotate }: { class?: string; rotate?: string } =
     $props();
 </script>
 
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+<svg xmlns="http://www.w3.org/2000/svg"
  width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"
  preserveAspectRatio="xMidYMid meet" fill="currentColor" class={className} style="transform: rotate({rotate}deg);">
-<metadata>
-Created by potrace 1.10, written by Peter Selinger 2001-2011
-</metadata>
 <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
 fill="currentColor" stroke="none">
 <path d="M1780 2920 c0 -6 30 -10 70 -10 40 0 70 4 70 10 0 6 -30 10 -70 10
