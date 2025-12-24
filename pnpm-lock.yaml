@@ -24,8 +24,8 @@ importers:
         specifier: ^4.1.18
         version: 4.1.18(vite@7.3.0(jiti@2.6.1)(lightningcss@1.30.2))
       lucide-svelte:
-        specifier: ^0.544.0
-        version: 0.544.0(svelte@5.46.0)
+        specifier: ^0.562.0
+        version: 0.562.0(svelte@5.46.0)
       svelte:
         specifier: ^5.46.0
         version: 5.46.0
@@ -742,8 +742,8 @@ packages:
   locate-character@3.0.0:
     resolution: {integrity: sha512-SW13ws7BjaeJ6p7Q6CO2nchbYEc3X3J6WrmTTDto7yMPqVSZTUyY5Tjbid+Ab8gLnATtygYtiDIJGQRRn2ZOiA==}
 
-  lucide-svelte@0.544.0:
-    resolution: {integrity: sha512-8kBxSivf8SJdEUJRHBpu9bRw0S/qfVK+Yfb92KQnRRBdP425RzT6aQfrIfZctG1oucPVTBQe1ZXgmth/3qVICg==}
+  lucide-svelte@0.562.0:
+    resolution: {integrity: sha512-kSJDH/55lf0mun/o4nqWBXOcq0fWYzPeIjbTD97ywoeumAB9kWxtM06gC7oynqjtK3XhAljWSz5RafIzPEYIQA==}
     peerDependencies:
       svelte: ^3 || ^4 || ^5.0.0-next.42
 
@@ -1414,7 +1414,7 @@ snapshots:
 
   locate-character@3.0.0: {}
 
-  lucide-svelte@0.544.0(svelte@5.46.0):
+  lucide-svelte@0.562.0(svelte@5.46.0):
     dependencies:
       svelte: 5.46.0
 
